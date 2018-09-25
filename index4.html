@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector!</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script type ="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <link rel="javascript" src="link.js">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron" style="background-color: purple; color: white" ;>
+            <div class="container">
+                <h1 class="text-center"><strong>Crystal Collector</strong></h1>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Instructions</h3>
+
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                        <small>
+                                You will be given a random number at the start of the game. There are four crystals
+                                below. By clicking on a crystal you will be adding a specific amount of points to your
+                                total score. You win the game by matching your total score with the given number. You
+                                lose the game if your total score goes above the random number. The value of each
+                                crystal is hidden from you until you click on it. Each time when the game starts, the
+                                game will change the value of each crystal. Good Luck.
+                            </small>
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col-lg-3">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h4 class="panel-title text-center">Target Score</h4>
+                </div>
+                <div class="panel-body">
+                    <h3 class="text-center" id="targetScore"></h3><strong>78</strong></h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="col-lg-3">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4 class="panel-title text-left">Your Score</h4>
+            </div>
+            <div class="panel-body">
+                <h3 class="text-left"><strong>78</strong></h3>
+            </div>
+
+
+
+        </div>
+
+        <div class="col-lg-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h4 class="panel-title text-right">Crystal Selection</h4>
+                </div>
+                <div class="panel-body">
+                    <img src="images/Blue.png" alt="" id="blue">
+                    <img src="images/Purple.png" alt="" id="purple">
+                    <img src="images/Green.png" alt="" id="green">
+                    <img src="images/Red.png" alt="" id="red">
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-lg-6">
+                <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title text-left">Win Count</h4>
+                        </div>
+                        <div class="panel-body">
+                            <h3 class="text-left" id="winCount"><strong>0</strong></h3>
+                        </div>
+            
+            
+            
+                    </div>
+            
+    
+        </div>
+
+        <div class="col-lg-6"> 
+
+                <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title text-left">Loss Count</h4>
+                        </div>
+                        <div class="panel-body">
+                            <h3 class="text-left" id="lossCount"><strong>0</strong></h3>
+                        </div>
+            
+            
+            
+                    </div>
+            
+        </div>
+    </div>
+
+    <script src="link.js"></script>
+</body>
+
+</html>
